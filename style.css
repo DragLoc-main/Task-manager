@@ -1,0 +1,20 @@
+.text{
+    color: blue;
+}
+
+.h3{color: white;
+}
+
+.input{
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: large;
+    background-color: transparent;
+    color: rgb(238, 0, 255);
+}
+
+.button{
+    background-color: blue;
+    border-radius: 20px;
+}

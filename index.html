@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style_settings.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <center><h1 class="text">Task Manager</h1></center>
+
+    <center> 
+        <input id="taskInput" class="input" type="text" autocomplete="on" placeholder="Add a task">
+        <button class="button" id="addTaskButton">Add Task</button>
+    </center>
+
+
+<div id="taskList" class="task-list">
+</div>
+
+
+<br><br><br><br>
+
+
+    <center>
+        <h3>Light mode</h3>
+        <label class="switch">
+            <input id="darkModeCheckbox" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <h3 class="h3">Dark mode</h3>
+    </center>
+    <script src="script.js"></script>
+    <script src="tasks.js"></script>
+</body>
+</html>
